@@ -1,0 +1,7 @@
+C:\Code\Fractured\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
+C:\Code\Fractured\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Fractured\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
+C:\Code\Fractured\API\obj\Debug\net6.0\API.AssemblyInfo.cs
+C:\Code\Fractured\API\obj\Debug\net6.0\API.csproj.CoreCompileInputs.cache
+C:\Code\Fractured\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\Code\Fractured\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,17 @@
+C:\Code\Fractured\Application\bin\Debug\net6.0\Application.deps.json
+C:\Code\Fractured\Application\bin\Debug\net6.0\Application.dll
+C:\Code\Fractured\Application\bin\Debug\net6.0\ref\Application.dll
+C:\Code\Fractured\Application\bin\Debug\net6.0\Application.pdb
+C:\Code\Fractured\Application\bin\Debug\net6.0\Domain.dll
+C:\Code\Fractured\Application\bin\Debug\net6.0\Persistence.dll
+C:\Code\Fractured\Application\bin\Debug\net6.0\Persistence.pdb
+C:\Code\Fractured\Application\bin\Debug\net6.0\Domain.pdb
+C:\Code\Fractured\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Code\Fractured\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Fractured\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Code\Fractured\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Code\Fractured\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Code\Fractured\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Code\Fractured\Application\obj\Debug\net6.0\Application.dll
+C:\Code\Fractured\Application\obj\Debug\net6.0\ref\Application.dll
+C:\Code\Fractured\Application\obj\Debug\net6.0\Application.pdb
