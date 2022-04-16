@@ -10,7 +10,7 @@ namespace Persistence
     {
         public static async Task SeedData(DataContext context)
         {
-            if (context.Activities.Any()) return;
+            if (context.Skills.Any()) return;
 
             var skills = new List<Skill>
             {
@@ -43,7 +43,7 @@ namespace Persistence
                 },
             };
 
-            await context.Activities.AddRangeAsync(activities);
+            await context.Skills.AddRangeAsync(skills);
             await context.SaveChangesAsync();
         }
     }
