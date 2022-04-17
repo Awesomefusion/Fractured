@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Code\\Fractured\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Code\\Fractured\\Domain\\Domain.csproj"
+              "c:\\Code\\Fractured\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Code\\Fractured\\Domain\\Domain.csproj"
               },
               "C:\\Code\\Fractured\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Code\\Fractured\\Persistence\\Persistence.csproj"
@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,14 +69,14 @@
         }
       }
     },
-    "C:\\Code\\Fractured\\Domain\\Domain.csproj": {
+    "c:\\Code\\Fractured\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\Fractured\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Code\\Fractured\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Code\\Fractured\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Code\\Fractured\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Alexm\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\Fractured\\Domain\\obj\\",
+        "outputPath": "c:\\Code\\Fractured\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexm\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -137,8 +143,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Code\\Fractured\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Code\\Fractured\\Domain\\Domain.csproj"
+              "c:\\Code\\Fractured\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Code\\Fractured\\Domain\\Domain.csproj"
               }
             }
           }
