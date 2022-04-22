@@ -1209,8 +1209,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Code\\Fractured\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Code\\Fractured\\Domain\\Domain.csproj"
+            "C:\\Code\\Fractured\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Code\\Fractured\\Domain\\Domain.csproj"
             },
             "C:\\Code\\Fractured\\Persistence\\Persistence.csproj": {
               "projectPath": "C:\\Code\\Fractured\\Persistence\\Persistence.csproj"

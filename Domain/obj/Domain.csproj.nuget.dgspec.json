@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Code\\Fractured\\Domain\\Domain.csproj": {}
+    "C:\\Code\\Fractured\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "c:\\Code\\Fractured\\Domain\\Domain.csproj": {
+    "C:\\Code\\Fractured\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Code\\Fractured\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Code\\Fractured\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Code\\Fractured\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Code\\Fractured\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Alexm\\.nuget\\packages\\",
-        "outputPath": "c:\\Code\\Fractured\\Domain\\obj\\",
+        "outputPath": "C:\\Code\\Fractured\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexm\\AppData\\Roaming\\NuGet\\NuGet.Config"
