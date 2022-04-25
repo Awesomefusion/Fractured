@@ -3,6 +3,8 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "material-ui-image": "^3.3.2"
+    "@types/react-router-dom": "^5.3.3",
+    "material-ui-image": "^3.3.2",
+    "react-router-dom": "^6.3.0"
   }
 }
