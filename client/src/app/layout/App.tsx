@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import CssBaseline from '@mui/material/CssBaseline';
+import Image from 'material-ui-image'
 
 function App() {
   const [skills, setActivites] = useState([]);
@@ -18,6 +19,7 @@ function App() {
         {skills.map((skill: any) =>(
           <li key={skill.Id}>
             {skill.title}
+            <img src={skill.image}/>
           </li>
         ))}
       </ul>

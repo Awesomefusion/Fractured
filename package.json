@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "material-ui-image": "^3.3.2"
   }
 }
