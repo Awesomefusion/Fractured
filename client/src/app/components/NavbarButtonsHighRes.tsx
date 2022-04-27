@@ -22,7 +22,7 @@ function NavbarButtonsHighRes() {
                     key={page}
                     onClick={handleCloseNavMenu}
                     sx={{ my: 2, color: 'white', display: 'inline' }}
-                    href={link}
+                    href={link} 
                 >
                 {page}
               </Button>
