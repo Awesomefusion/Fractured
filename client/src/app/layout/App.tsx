@@ -1,17 +1,20 @@
-import Grid from '@mui/material/Grid';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import { Route, Routes } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+import Home from '../Pages/Home';
+import SkillBuilder from '../Pages/SkillBuilder';
 
 
 function App() {
 
   return (
-    <Grid container spacing={2}>
-      <Grid item xs={12}>
-        <Navbar/>
-      </Grid>
-    </Grid>
+    <div>
+      <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/skillbuilder" element={<SkillBuilder/>}/>
+        </Routes>
+    </div>
   );
 }
 export default App;
