@@ -7,6 +7,7 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import { CssBaseline } from '@mui/material';
 import { BrowserRouter } from 'react-router-dom';
+import { store, StoreContext } from './app/stores/store';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,7 +15,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <BrowserRouter>
     <CssBaseline>
-      <App />
+      <StoreContext.Provider value={store}>
+        <App />
+      </StoreContext.Provider>,
     </CssBaseline>
   </BrowserRouter>
 );

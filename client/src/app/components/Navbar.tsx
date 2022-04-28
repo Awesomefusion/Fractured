@@ -8,7 +8,8 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import NavbarButtonsHighRes from './NavbarButtonsHighRes';
-import NavbarButtonsLowRes from './NavbarButtonsLowRes';
+import { MenuItem } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -29,6 +30,12 @@ const Navbar = () => {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
+
+      const pagesLinks = [
+  { page: 'Home', link: '/'},
+  { page: 'Skill Builder', link: '/skillbuilder'}
+    ];
+
 
   return (
     <AppBar position="static" sx={{marginBottom: '1em'}}>
@@ -72,7 +79,13 @@ const Navbar = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              <NavbarButtonsLowRes/>
+                      {pagesLinks.map(({ page, link}) => (
+        <MenuItem key={page} onClick={handleCloseNavMenu}>
+            <Link style={{textDecoration: 'none'}} to={link}><Typography textAlign="center">{page}</Typography></Link>
+            
+        </MenuItem>
+       
+        ))}
             </Menu>
           </Box>
           <Typography
@@ -83,8 +96,8 @@ const Navbar = () => {
           >
             LOGO
           </Typography>
-
-          <NavbarButtonsHighRes/>
+        
+            <NavbarButtonsHighRes/>
 
         </Toolbar>
       </Container>

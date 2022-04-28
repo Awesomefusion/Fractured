@@ -4,7 +4,11 @@
   },
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
+    "axios": "^0.27.2",
     "material-ui-image": "^3.3.2",
+    "mobx": "^6.5.0",
+    "mobx-react-lite": "^3.3.0",
+    "react-responsive": "^9.0.0-beta.6",
     "react-router-dom": "^6.3.0"
   }
 }
